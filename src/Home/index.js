@@ -1,11 +1,13 @@
-import './index.css';
+import './index.scss';
+import { Container,Row,Col } from 'reactstrap';
 
 function Home() {
   return (
-    <div className='home'>
-      <a href='/'></a>
-    </div>
-    
+  <Container>
+    <Row className='home'>
+      <Col className='bg-primary'>Hello word</Col>
+    </Row>
+  </Container>
   );
 }
 
