@@ -1,5 +1,5 @@
 import './index.scss'
-import { Container, Row,Col } from "reactscript";
+import { Container, Row,Col } from "reactstrap";
 
 function Bio() {
     return (
@@ -9,7 +9,7 @@ function Bio() {
                     <Row>
                         <Col lg={12}>
                             <div className='wrapper-img'>
-                                <img src="../../public/img/logo-mostra.png" alt="" />
+                                <img src="../../img/logo-mostra.png" alt="" />
                             </div>
                         </Col>
                     </Row>
