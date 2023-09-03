@@ -3,7 +3,7 @@ import { Container, Row,Col } from "reactstrap";
 
 function Bio() {
     return (
-        <div className='main'>
+        <main className='main-biologia'>
             <header>
                 <Container>
                     <Row>
@@ -15,7 +15,18 @@ function Bio() {
                     </Row>
                 </Container>   
             </header>
-        </div>
+            <section id='main-content'>
+                <Container>
+                    <Row>
+                        <Col lg={12}>
+                            <div className='wrapper-title'>
+                                <h1>Experiências</h1>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+        </main>
     );
 }
 
