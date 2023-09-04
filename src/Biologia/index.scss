@@ -2,9 +2,60 @@
     height: 100%;
     width: 100%;
 
+    header {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
     .wrapper-img {
         display: flex;
         justify-content: center;
         width: 100%;
+    }
+    #main-content>div>div {
+        justify-content: center;
+    }
+    #main-content .wrapper-superior {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        padding-bottom: 50px;
+    }
+    #main-content .wrapper-title h1 {
+        font-size: 25px;
+    }
+    #main-content .wrapper-btn {
+    }
+    #main-content .wrapper-btn a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    #main-content .wrapper-btn a img {
+        padding-right: 10px;
+        transition: all ease .5s;
+    }
+    #main-content .wrapper-btn a:hover {
+    }
+    #main-content .wrapper-btn a:hover img {
+        transition: all ease .5s;
+        transform: translateX(-10px);
+    }
+    #main-content .card-conteudo {
+        margin-bottom: 20px;
+    }
+    #main-content .card-conteudo img {
+        height: 390px;
+        width: 100%;
+        background-color: white;
+        border-radius: 11px;
+    }
+    footer span {
+        font-weight: 700;
+        color: white;
+    }
+    footer p {
+        font-weight: 400;
+        color: white;
     }
 }
