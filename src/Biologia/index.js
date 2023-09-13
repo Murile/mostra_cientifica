@@ -2,6 +2,16 @@ import './index.scss'
 import { Container, Row,Col } from "reactstrap";
 
 function Bio() {
+
+    async function Popup() {
+        const elemento = document.querySelector('.card-conteudo');
+        if (elemento.classList.contains('classe') == false) {
+            elemento.classList.add('classe');
+        } else {
+            elemento.classList.remove('classe');
+        }
+    }
+
     return (
         <main className='main-biologia'>
             <header>
@@ -31,32 +41,32 @@ function Bio() {
                     </Row>
                     <Row>
                         <Col lg={3}>
-                            <div className='card-conteudo'>
+                            <div onClick={Popup} className='card-conteudo' data-id='1'>
                                 <img src="#" alt="" />
                             </div>
                         </Col>
                         <Col lg={3}>
-                            <div className='card-conteudo'>
+                            <div className='card-conteudo' data-id='2'>
                                 <img src="#" alt="" />
                             </div>
                         </Col>
                         <Col lg={3}>
-                            <div className='card-conteudo'>
+                            <div className='card-conteudo' data-id='3'>
                                 <img src="#" alt="" />
                             </div>
                         </Col>
                         <Col lg={3}>
-                            <div className='card-conteudo'>
+                            <div className='card-conteudo' data-id='4'>
                                 <img src="#" alt="" />
                             </div>
                         </Col>
                         <Col lg={3}>
-                            <div className='card-conteudo'>
+                            <div className='card-conteudo' data-id='5'>
                                 <img src="#" alt="" />
                             </div>
                         </Col>
                         <Col lg={3}>
-                            <div className='card-conteudo'>
+                            <div className='card-conteudo' data-id='6'>
                                 <img src="#" alt="" />
                             </div>
                         </Col>
