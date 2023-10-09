@@ -75,4 +75,43 @@
     color: #4e4e4e;
     transform: translateX(0.025px) scale(1.01)
 }
+
+}
+
+@media screen and (max-width: 828px){
+    .main_home{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        .Tsubtitulo_home h1{
+        font-size: 20px;
+        }
+
+        .img_topo{
+            height: 50px;
+        }
+        .opcoes_home{
+            margin: 0;
+            flex-direction: column;
+            margin-left: 5em;
+        }
+        .opcoes_home img{
+            height: 200px;
+            border-radius: 0.4em;
+            margin-bottom: 10em;
+        }
+        .opcoes_home h3{
+            font-size: 20px;
+    }   
+        .Robotica{
+            position: absolute;
+            margin-right: 10em;
+        }
+        .opcoes_home h3{
+            width: fit-content;
+            margin-top: -7em;
+            margin-bottom: 3em;
+    }
+}
 }

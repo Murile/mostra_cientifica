@@ -18,7 +18,7 @@ function Home() {
             
                 <div className='titulos_home'>
                     <div className='Tprincipal_home'>
-                    <img src="../../img/logo-mostra.png" alt="" />                        
+                    <img className='img_topo' src="../../img/logo-mostra.png" alt="" />                        
                     </div>
 
                     <div className='Tsubtitulo_home'>
