@@ -10,4 +10,69 @@
     font-weight: 400;
     line-height: normal;
     }
+
+.titulos_home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    h1{
+        margin-top: 2em;
+    }
+}
+.opcoes_home{
+    width: fit-content;
+    display: flex;
+    margin-left: 20em;
+    align-items: center;
+    margin-top: 1em;
+    div{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    h3{
+        color: #FFF;
+        font-family: Netflix Sans;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 4em;
+        margin-top: 1em;
+    }
+
+    .Biologia{
+        margin-left: 3.8em;
+    }
+    .Robotica{
+        margin-left: 4em;
+    }
+}
+.opcao1_home{
+    animation: none;
+    transition: transform 0.3s ease-in-out;
+}
+.opcao1_home:hover, .opcao1_home:focus{
+    cursor: pointer;
+    color: #4e4e4e;
+    transform: translateX(0.025px) scale(1.01)
+}
+.opcao2_home{
+    animation: none;
+    transition: transform 0.3s ease-in-out;
+}
+.opcao2_home:hover, .opcao2_home:focus{
+    cursor: pointer;
+    color: #4e4e4e;
+    transform: translateX(0.025px) scale(1.01)
+}
+.opcao3_home{
+    animation: none;
+    transition: transform 0.3s ease-in-out;
+}
+.opcao3_home:hover, .opcao3_home:focus{
+    cursor: pointer;
+    color: #4e4e4e;
+    transform: translateX(0.025px) scale(1.01)
+}
 }
