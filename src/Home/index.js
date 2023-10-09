@@ -1,5 +1,6 @@
 import './index.scss';
 import { useNavigate } from 'react-router-dom'
+import NetflixAnimation from '../componentes/netflix-animation';
 
 function Home() {
   const navigate = useNavigate()
@@ -15,7 +16,7 @@ function Home() {
   }
   return (
  <main className='main_home'>
-            
+                <NetflixAnimation/>
                 <div className='titulos_home'>
                     <div className='Tprincipal_home'>
                     <img className='img_topo' src="../../img/logo-mostra.png" alt="" />                        
