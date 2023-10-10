@@ -1,49 +1,8 @@
 import './index.scss'
+import { useState } from 'react';
 import { Container, Row,Col } from "reactstrap";
 
 function Bio() {
-    let popup = document.querySelector('.popups');
-
-    //async function Popup1() {
-    //    const c = document.querySelector('#popup-1');
-    //    if (c.classList.contains('active') == true) {
-    //        c.classList.remove('active');
-    //        popup.classList.remove('active');
-    //    } else {
-    //        c.classList.add('active');
-    //        popup.classList.add('active');
-    //    }
-    //}
-    //async function Popup2() {
-    //    const c = document.querySelector('#popup-2');
-    //    if (c.classList.contains('active')) {
-    //        c.classList.remove('active');
-    //        popup.classList.remove('active');
-    //    } else {
-    //        c.classList.add('active');
-    //        popup.classList.add('active');
-    //    }
-    //}
-    //async function Popup3() {
-    //    const c = document.querySelector('#popup-3');
-    //    if (c.classList.contains('active')) {
-    //        c.classList.remove('active');
-    //        popup.classList.remove('active');
-    //    } else {
-    //        c.classList.add('active');
-    //        popup.classList.add('active');
-    //    }
-    //}
-    //async function Popup4() {
-    //    const c = document.querySelector('#popup-4');
-    //    if (c.classList.contains('active')) {
-    //        c.classList.remove('active');
-    //        popup.classList.remove('active');
-    //    } else {
-    //        c.classList.add('active');
-    //        popup.classList.add('active');
-    //    }
-    //}
 
     return (
         <main className='main-biologia'>
@@ -100,64 +59,6 @@ function Bio() {
                     </Row>
                 </Container>
             </section>
-            {/* <section className='popups'>
-                <div id="popup-1" className='popup-content'>
-                    <div onClick={Popup1} className='wrapper-close'>
-                        <a href="#">
-                            <img src="../../img/close.svg" alt="" />
-                        </a>
-                    </div>
-                    <div className='wrapper-img'>
-                        <img src="#" alt="" />
-                    </div>
-                    <div className='wrapper-descritivo'>
-                        <h1>Experiência</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Ultricies leo integer malesuada nunc vel. Est ullamcorper eget nulla facilisi. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Morbi quis commodo odio aenean. Phasellus vestibulum lorem sed risus ultricies tristique.</p>
-                    </div>
-                </div>
-                <div id="popup-2" className='popup-content'>
-                    <div onClick={Popup2} className='wrapper-close'>
-                        <a href="#">
-                            <img src="../../img/close.svg" alt="" />
-                        </a>
-                    </div>
-                    <div className='wrapper-img'>
-                        <img src="#" alt="" />
-                    </div>
-                    <div className='wrapper-descritivo'>
-                        <h1>Experiênciaaaa</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Ultricies leo integer malesuada nunc vel. Est ullamcorper eget nulla facilisi. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Morbi quis commodo odio aenean. Phasellus vestibulum lorem sed risus ultricies tristique.</p>
-                    </div>
-                </div>
-                <div id="popup-1" className='popup-content'>
-                    <div onClick={Popup3} className='wrapper-close'>
-                        <a href="#">
-                            <img src="../../img/close.svg" alt="" />
-                        </a>
-                    </div>
-                    <div className='wrapper-img'>
-                        <img src="#" alt="" />
-                    </div>
-                    <div className='wrapper-descritivo'>
-                        <h1>Experiência</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Ultricies leo integer malesuada nunc vel. Est ullamcorper eget nulla facilisi. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Morbi quis commodo odio aenean. Phasellus vestibulum lorem sed risus ultricies tristique.</p>
-                    </div>
-                </div>
-                <div id="popup-1" className='popup-content'>
-                    <div onClick={Popup4} className='wrapper-close'>
-                        <a href="#">
-                            <img src="../../img/close.svg" alt="" />
-                        </a>
-                    </div>
-                    <div className='wrapper-img'>
-                        <img src="#" alt="" />
-                    </div>
-                    <div className='wrapper-descritivo'>
-                        <h1>Experiência</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Ultricies leo integer malesuada nunc vel. Est ullamcorper eget nulla facilisi. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Morbi quis commodo odio aenean. Phasellus vestibulum lorem sed risus ultricies tristique.</p>
-                    </div>
-                </div>
-            </section> */}
             <footer>
                 <Container>
                     <Row>

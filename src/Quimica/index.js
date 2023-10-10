@@ -103,6 +103,12 @@ function Quimica() {
                                 <h1>Solução eletrolítica e não eletrolítica</h1>
                             </div>
                         </Col>
+                        <Col md={6} lg={3}>
+                            <div className='card-conteudo' id='4'>
+                                <img src="../../img/qui-6.jpeg" alt="" />
+                                <h1>Foguete de Garrafa Pet</h1>
+                            </div>
+                        </Col>
                     </Row>
                 </Container>
             </section>
