@@ -38,10 +38,6 @@ function Home() {
                    <img src="../../img/Group 6.png" alt="" onClick={Biologia} />
                    <h3 className='Biologia'> Biologia </h3>
                  </div>
-                <div className='opcao3_home'> 
-                   <img src="../../img/image 1.png" alt="" onClick={Robotica}/>
-                   <h3 className='Robotica'> Robótica </h3>
-                </div>
 
                 </div>
 
