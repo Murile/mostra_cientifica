@@ -1,0 +1,137 @@
+.main-quimica {
+    height: 100%;
+    width: 100%;
+
+    header {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .wrapper-img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #main-content>div>div {
+        justify-content: center;
+    }
+    #main-content .wrapper-superior {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        padding-bottom: 50px;
+    }
+    #main-content .wrapper-title h1 {
+        font-size: 25px;
+    }
+    #main-content .wrapper-btn {
+    }
+    #main-content .wrapper-btn a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    #main-content .wrapper-btn a img {
+        padding-right: 10px;
+        transition: all ease .5s;
+    }
+    #main-content .wrapper-btn a:hover {
+    }
+    #main-content .wrapper-btn a:hover img {
+        transition: all ease .5s;
+        transform: translateX(-10px);
+    }
+    #main-content .card-conteudo {
+        margin-bottom: 20px;
+    }
+    #main-content .card-conteudo h1 {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    #main-content .card-conteudo img {
+        height: 390px;
+        width: 100%;
+        background-color: white;
+        border-radius: 11px;
+    }
+    .popups {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        pointer-events: none;
+        background-color: #000000c7;
+        top: 0;
+        transition: all ease .5s;
+    }
+    .popups.active {
+        opacity: 1;
+        pointer-events: initial;
+    }
+    .popups .popup-content {
+        position: absolute;
+        top: -100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 51px 72px;
+        border-radius: 15px;
+        opacity: 0;
+        pointer-events: none;
+        transition: all ease .5s;
+    }
+    .popups .popup-content.active {
+        opacity: 1;
+        pointer-events: initial;
+        top: 50%;
+    }
+    .popups .popup-content .wrapper-close {
+        position: absolute;
+        top: 20px;
+        right: 34px;
+    }
+    .popups .popup-content .wrapper-close a {
+    }
+    .popups .popup-content .wrapper-close a img {
+    }
+    .popups .popup-content .wrapper-close a:hover {
+    }
+    .popups .popup-content .wrapper-close a:hover img {
+    }
+    .popups .popup-content .wrapper-img {
+    }
+    .popups .popup-content .wrapper-img img {
+        width: 856px;
+        height: 320px;
+        background-color: gray;
+        max-width: 100%;
+    }
+    .popups .popup-content .wrapper-descritivo {
+    }
+    .popups .popup-content .wrapper-descritivo h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .popups .popup-content .wrapper-descritivo p {
+        font-size: 16px;
+    }
+    footer {
+        position: relative;
+    }
+    footer span {
+        font-weight: 700;
+        color: white;
+    }
+    footer p {
+        font-weight: 400;
+        color: white;
+    }
+
+    @media screen and (max-width: 576px) {
+        header img {
+            width: 100%;
+        }
+    }
+}
